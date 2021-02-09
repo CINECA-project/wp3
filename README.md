@@ -4,8 +4,8 @@ Start here to explore WP3 material
 ## Minimum metadata model
 WP3 minimum metadata model [here](https://docs.google.com/spreadsheets/d/1ZXqTMIhFtGOaodw7Fns5YghvY_pWos-RuSa2BFnO5l4/edit#gid=0). 
 
-## Synthetic data
-All the synthetic datasets are in Google Drive [here](https://drive.google.com/drive/u/1/folders/1N6Baa7HqA_MJWLFGhB1cVt3Q4XJwPOHS). 
+## Synthetic datasets
+All synthetic datasets are in Google Drive [here](https://drive.google.com/drive/u/1/folders/1N6Baa7HqA_MJWLFGhB1cVt3Q4XJwPOHS). 
 
 | Cohort  | Other Links | Contact |
 | ------  | ----------- | ------- |
