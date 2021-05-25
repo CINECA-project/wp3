@@ -41,7 +41,36 @@ on the BioSamples.
 - [EGA](https://ega-archive.org/datasets/EGAD00001006673)
 
 
-## CINECA_synthetic_cohort_Africa_H3ABioNet1
+## CINECA_synthetic_cohort_Africa_H3ABioNet_v1
+
+The H3ABioNet synthetic data was created using a modified version of tofu ([https://github.com/spiros/tofu](https://github.com/spiros/tofu)), using a database of fields and values/encodings.
+
+We used the [H3Africa Core phenotype](https://www.h3abionet.org/images/DataAndStandards/DataStandards/H3AfricaHarmonisedPhenotypes_DataDictionary_2018-05-11_Version_1.csv) data dictionary to generate new database fields and encodings to mimic African data.
+
+### Metadata / Phenotypic data
+
+We used a modified version of the [TOFU](https://github.com/spiros/tofu) to generate the metadata for 100 samples. All sample identifiers are prefaced with 'fake' to avoid confusion with real datasets. We constructed a database of fields and values using the [H3Africa Core phenotype](https://www.h3abionet.org/images/DataAndStandards/DataStandards/H3AfricaHarmonisedPhenotypes_DataDictionary_2018-05-11_Version_1.csv), a set of recommended questions or variables that H3Africa should consider when designing their data collection forms. We selected a group of 170 variables out of the 255 H3Africa Core phenotypes to provide a good overlap with the CINECA core metadata model. We randomly chose categorical values from field choices from the H3Africa Core phenotype data dictionary. Continuous values, such as age and date of birth, were randomly selected from field ranges from the H3Africa Core phenotype data dictionary. [The phenotypic data](https://drive.google.com/file/d/1p-WNt_2wTq50R2Nfi7ivmHU5R-dii_cK/view?usp=sharing) can be accessed from the [public Google Drive folder](https://drive.google.com/drive/folders/17gFbUzgVcByCd8IXb59dp2rDL2yXHQUX?usp=sharing).
+
+More information on the phenotypic data variables (description, data type, examples) can be found in this document that describes the [coverage with the CINECA minimal metadata model](https://docs.google.com/spreadsheets/d/1Wpbf51jZjNHaIn1FJkMcMHswvHW0nasu/edit#gid=428731926).
+
+
+### Generic data
+
+We used the [1000 Genomes project phase 3 data ](http://ftp.1000genomes.ebi.ac.uk/vol1/ftp/release/20130502/) to generate genetic data. From the 2504 samples included in the 1000 Genomes project, we randomly selected 100 samples of African ancestries. We then used [BCFTools](http://samtools.github.io/bcftools/bcftools.html) to replace the 100 sample identifiers with the ones in the metadata file. We randomly selected 2M variants in chromosome 22 using [BCFTools](http://samtools.github.io/bcftools/bcftools.html). [The Genetic data](https://drive.google.com/file/d/1OBVx4DCMMo2ZH5lHCPywk1A2JnzKggy9/view?usp=sharing) can be accessed from the [public Google Drive folder](https://drive.google.com/drive/folders/17gFbUzgVcByCd8IXb59dp2rDL2yXHQUX?usp=sharing).
+
+### Storage and Access
+
+*   The CINECA_synthetic_cohort_Africa_H3ABioNet1 data is currently accessible via the [CINECA synthetic data’s project google drive folder](https://drive.google.com/drive/folders/17gFbUzgVcByCd8IXb59dp2rDL2yXHQUX?usp=sharing).
+*   This data will also be made available through the H3ABioNet Beacon test instance at [https://beacon2.h3abionet.org](https://beacon2.h3abionet.org) 
+
+### Usage & Acknowledgement
+
+Both the genetic data and metadata are fully accessible under the Creative Commons Licence (CC-BY). Any use of this data should, however, thoroughly consider the following:
+*   The metadata conforms to the structure and schema of the [H3Africa Core phenotype](https://www.h3abionet.org/images/DataAndStandards/DataStandards/H3AfricaHarmonisedPhenotypes_DataDictionary_2018-05-11_Version_1.csv), but it is otherwise nonsensical: no checks have been implemented across fields, and values may be completely unrealistic.
+*   We did not model any correlation between fields. There is, however, a plan to model a correlation on a few variables such as weight and height.
+*   This dataset should not be used to make any inference whatsoever as the values of the fields do not entirely reflect reality.
+*   Dates randomly generated are between 1910 and 1990 to avoid confusion with real data.
+*   This synthetic data set (with cohort “participants” / ”subjects” marked with fake) has no identifiable data and cannot be used to make any inference about H3Africa cohort data or results. This dataset aims to aid the development of technical implementations for cohort data discovery, harmonisation, access, and federated analysis. In support of FAIRness in data sharing, this dataset is made freely available under the Creative Commons Licence (CC-BY). Please ensure this preamble is included with this dataset and that the H3Africa project and the CINECA project (funding: EC H2020 grant 825775 and CIHR grant 404896) are acknowledged. If you have any questions about this dataset, please contact Mamana Mbiyavanga ([mamana.mbiyavanga@uct.ac.za](mailto:mamana.mbiyavanga@uct.ac.za)) or Nicola Mulder ([nicola.mulder@uct.ac.za](mailto:nicola.mulder@uct.ac.za)).
 
 ## CINECA_synthetic_cohort_CH_SIB
 

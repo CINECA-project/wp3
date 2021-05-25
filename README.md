@@ -18,7 +18,7 @@ Synthetic data are also hosted at respective repositories as listed below. For m
 | [UKB](https://drive.google.com/drive/u/1/folders/1uEy6C_owT6Lh1gBWHs-MvA4nS_9TAdLK) |[doc](https://docs.google.com/document/d/16GhN5GZqMVqzrZzX_XJLCiCEgMBVCLcM5d-Rzfsk0uI), [slides]()  | [EGA](https://ega-archive.org/datasets/EGAD00001006673), [BioSamples](https://wwwdev.ebi.ac.uk/biosamples/samples?filter=attr:project:UKB_SYNTHETIC_DATA) | 
 | [CHILD](https://drive.google.com/drive/u/1/folders/1z93Upf5SUz36DaPcUPgWZXwrv6TUqzR3) |  |  |
 | [CoLaus](https://drive.google.com/drive/u/1/folders/1sjBNjx_LVeqYqAmxbGsaNmQIJ5mcI6ye) |  |  |
-| [H3Africa](https://drive.google.com/drive/u/1/folders/1pJoMvK-HBnMqoOTxGqkvenUVTeiQ0z8M) |[doc](https://docs.google.com/document/d/1WvZEww5aqMQ5ed1gKPq7nQY6r5K4YF1q5vz9I3AdEFY/edit), [slides]()  |  |
+| [H3Africa](https://drive.google.com/drive/folders/17gFbUzgVcByCd8IXb59dp2rDL2yXHQUX?usp=sharing) |[doc](https://drive.google.com/file/d/1qoUKqefMnI0fSP-vZ1UGnu6NeCtNT2WV/view?usp=sharing), [slides](https://drive.google.com/file/d/1UbOdLQYvE4WjA8UkXMJo0iAX0xf7pRs5/view?usp=sharing)  |  |
 
 ## Text Mining group
 The text-mining team encompasses members from CINECA participant institutions such as SFU, EMBL-EBI, HES-SO, and UCT. 
