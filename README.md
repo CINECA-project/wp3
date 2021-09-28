@@ -16,7 +16,7 @@ Synthetic data are also hosted at respective repositories as listed below. For m
 | Cohort  | Description | Other Links |
 | ------  | ----------- | ----------- |
 | [UKB](https://drive.google.com/drive/u/1/folders/1uEy6C_owT6Lh1gBWHs-MvA4nS_9TAdLK) |[doc](https://docs.google.com/document/d/16GhN5GZqMVqzrZzX_XJLCiCEgMBVCLcM5d-Rzfsk0uI), [slides]()  | [EGA](https://ega-archive.org/datasets/EGAD00001006673), [BioSamples](https://wwwdev.ebi.ac.uk/biosamples/samples?filter=attr:project:UKB_SYNTHETIC_DATA) | 
-| [CHILD](https://drive.google.com/drive/u/1/folders/1z93Upf5SUz36DaPcUPgWZXwrv6TUqzR3) |  |  |
+| [CHILD](https://drive.google.com/drive/u/1/folders/1z93Upf5SUz36DaPcUPgWZXwrv6TUqzR3) |[doc](https://docs.google.com/document/d/1ognT7_94NneR8S0IlwNNjE_nDqTT3SwH), [slides](https://docs.google.com/presentation/d/1oB2XPk7jnVTLSwk--KBNUuK1FxP2I_mG)  | [Zenodo](https://zenodo.org/record/5122832) |
 | [CoLaus](https://drive.google.com/drive/u/1/folders/1sjBNjx_LVeqYqAmxbGsaNmQIJ5mcI6ye) |  |  |
 | [H3Africa](https://drive.google.com/drive/folders/17gFbUzgVcByCd8IXb59dp2rDL2yXHQUX?usp=sharing) |[doc](https://drive.google.com/file/d/1qoUKqefMnI0fSP-vZ1UGnu6NeCtNT2WV/view?usp=sharing), [slides](https://drive.google.com/file/d/1UbOdLQYvE4WjA8UkXMJo0iAX0xf7pRs5/view?usp=sharing)  |  |
 
