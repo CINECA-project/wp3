@@ -74,4 +74,12 @@ Both the genetic data and metadata are fully accessible under the Creative Commo
 
 ## CINECA_synthetic_cohort_CH_SIB
 
+The "CINECA synthetic cohort NA Canada CHILD" dataset is a synthetic dataset developed to provide insight into how data is structured for select common attributes in the [CHILD Cohort Study](https://childstudy.ca/), but not reveal any personal or identifiable information associated with cohort participants. Such synthetic datasets are valuable for software developers to be able to see specific examples of data for common attributes (i.e. a minimal metadata model of a selection of common variables usually present in cohorts). This dataset comprises 100 variables for 150 synthetic participants which have faked phenotypic data that reflects CHILD cohort data. In addition, there is genetic data based on the [1000 Genomes](https://www.nature.com/articles/nature15393) project. This dataset was created within the context of the [CINECA](https://www.cineca-project.eu/) project. More information about the creation of this dataset can be found in the included documentation.
+
+*Please note this preamble must be included with any distribution of this dataset*: This synthetic dataset (with cohort “participants” / ”subjects” marked with FAKE) has no identifiable data and cannot be used to make any inference about CHILD cohort data or results. The purpose of this dataset is to aid development of technical implementations for cohort data discovery, harmonization, access, and federated analysis. In support of FAIRness in data sharing, this dataset is made freely available under the Creative Commons Licence (CC-BY; https://creativecommons.org/licenses/by-nc-sa/4.0/). Please ensure this preamble is included with this dataset and that the CHILD project and the CINECA project (funding: EC H2020 grant 825775 and CIHR grant 404896) are acknowledged. If you have any questions about this dataset contact Fiona Brinkman at brinkman@sfu.ca or Erin Gill at egill@sfu.ca.
+
+### Data Access
+
+* **Zenodo**: [CINECA synthetic cohort NA Canada CHILD [CC-BY-NC-SA]](https://zenodo.org/record/5122832)
+
 ## CINECA_synthetic_cohort_Canada_CHILD1
